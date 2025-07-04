@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Ocultar Etiquetas con Click",
+    "version": "1.0",
+    "description": "Haz clic en un elemento para ocultarlo.",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Haz clic para activar la función"
+    }
+}
